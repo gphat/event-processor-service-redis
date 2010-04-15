@@ -1,0 +1,27 @@
+NAME
+    Event::Processor::Service::Redis - Redis storage service for
+    Event::Processor
+
+SYNOPSIS
+        my $proc = Event::Processor->new;
+        $proc->kernel->add_service(
+            Event::Processor::Service::Redis->new
+        );
+
+AUTHOR
+    Cory G Watson, "<gphat at cpan.org>"
+
+ACKNOWLEDGEMENTS
+    Jay Shirley
+
+    Mike Eldridge
+
+COPYRIGHT & LICENSE
+    Copyright 2010 Cory G Watson.
+
+    This program is free software; you can redistribute it and/or modify it
+    under the terms of either: the GNU General Public License as published
+    by the Free Software Foundation; or the Artistic License.
+
+    See http://dev.perl.org/licenses/ for more information.
+
