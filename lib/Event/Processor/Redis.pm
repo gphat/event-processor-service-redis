@@ -21,7 +21,7 @@ has '_redis' => (
     is => 'ro',
     isa => 'Redis',
     lazy_build => 1,
-    handles => [qw(get set)]
+    handles => [qw(exists expire get llen rpush set)]
 );
 
 sub _build__redis {

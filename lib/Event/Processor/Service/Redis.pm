@@ -30,12 +30,6 @@ Event::Processor::Service::Redis - Redis storage service for Event::Processor
 
 Cory G Watson, C<< <gphat at cpan.org> >>
 
-=head1 ACKNOWLEDGEMENTS
-
-Jay Shirley
-
-Mike Eldridge
-
 =head1 COPYRIGHT & LICENSE
 
 Copyright 2010 Cory G Watson.
